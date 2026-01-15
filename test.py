@@ -3,11 +3,11 @@
 from groqchat_lib import GroqChat
 
 # === 1. Инициализация ===
-# ← ЗАМЕНИТЕ НА СВОЙ КЛЮЧ!
+API_KEY = "ЗАМЕНИТЕ НА СВОЙ КЛЮЧ!"  # ← ЗАМЕНИТЕ НА СВОЙ КЛЮЧ!
 
 print("=== 🚀 Инициализация GroqChat ===")
 chat = GroqChat(
-
+    api_key=API_KEY,
     log_level=20,  # INFO
     sessions_dir="test_sessions"
 )
