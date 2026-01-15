@@ -3,7 +3,7 @@
 from groqchat_lib import GroqChat
 
 # === 1. Инициализация ===
-API_KEY = "ваш_groq_api_key"  # ← ЗАМЕНИТЕ НА СВОЙ КЛЮЧ!
+API_KEY = "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"  # ← ЗАМЕНИТЕ НА СВОЙ КЛЮЧ!
 
 print("=== 🚀 Инициализация GroqChat ===")
 chat = GroqChat(
